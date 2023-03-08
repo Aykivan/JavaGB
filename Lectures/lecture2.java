@@ -1,3 +1,11 @@
+import javax.sound.sampled.SourceDataLine;
+
+public class Lecture2 {
+    public static void main(String[] args) {
+        System.out.println("Лекция 2");
+    }
+}
+
 // API (Application programming interface) —
 // это контракт, который предоставляет программа.
 // «Ко мне можно обращаться так и так, я обязуюсь
