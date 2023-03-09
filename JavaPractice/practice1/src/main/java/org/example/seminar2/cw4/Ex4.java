@@ -13,16 +13,14 @@ public class Ex4 {
         System.out.println("Скалярное произведение = " + vector1.scalarMulti(vector2));
         System.out.println("Скалярное произведение = " + vector1.scalarMulti2(vector2));
         System.out.println("Угол между векторами = " + vector1.cos(vector2));
+
         /**
          * ДЗ
          */
-        System.out.println("Сумма и разность векторов = " + vector1.summDiff(vector2);
+        System.out.println("Сумма векторов = " + vector1.summVector(vector2));
+        System.out.println("Разность векторов = " + vector1.diffVector(vector2));
     }
-
-
 }
-
-
 
 /**
 * Создаем класс -> создаем переменные класса -> создаем полный и пустой конструктор -> гетеры и сеттеры-> переопределяем toString()

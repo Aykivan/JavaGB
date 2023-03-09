@@ -82,19 +82,18 @@ public class Vector {
 
     /**
      * @param vector2 второй вектор
-     * @return сумма и разность векторов
+     * @return сумма векторов
      */
 
-    public double[] summDiff(Vector vector2) {
+    public Vector summVector(Vector vector2) {
+        return new Vector(this.x + vector2.x, this.y + vector2.y, this.z + vector2.z);
+    }
 
-//        public sumDiff() {
-
-        double[] array = {this.x + vector2.x, this.y + vector2.y, this.z + vector2.z,
-                this.x - vector2.x, this.y - vector2.y, this.z - vector2.z};
-
-        Vector vecSumm = new Vector(this.x + vector2.x, this.y + vector2.y, this.z + vector2.z);
-        Vector vecDiff = new Vector(this.x - vector2.x, this.y - vector2.y, this.z - vector2.z);
-
-        return array;
+    /**
+     * @param vector2 второй вектор
+     * @return разность векторов
+     */
+    public Vector diffVector(Vector vector2) {
+        return new Vector(this.x - vector2.x, this.y - vector2.y, this.z - vector2.z);
     }
 }
