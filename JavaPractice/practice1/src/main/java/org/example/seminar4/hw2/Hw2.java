@@ -1,5 +1,6 @@
 package org.example.seminar4.hw2;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class Hw2 {
